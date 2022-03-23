@@ -1,0 +1,67 @@
+/* Small phones: from 0 to 375px */
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        background-image: url("img/bg-header-mobile.png");
+    }
+
+    .center-section {
+        text-align: center;
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .section-3 img {
+        display: inline-block;
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .section-3 ul {
+        float: none;
+        width: 80%;
+        list-style-type: none;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .section-5 img {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .section-7 div {
+        margin-bottom: 50px;
+    }
+
+    .section-8 div {
+        margin-bottom: 75px;
+    }
+
+    .menu{
+        text-align: center;
+    }
+
+    .menu-item {
+        margin-top: 25px !important;
+    }
+
+    .social {
+        margin-top: 25px;
+    }
+
+    footer {
+        height: 400px;
+    }
+}
+
