@@ -1,3 +1,13 @@
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -115,4 +125,17 @@ header {
     font-size: 90%;
     margin-top: -10px;
 
+}
+
+.section-4 {
+    margin-top: 150px;
+}
+
+.section-4 p {
+    font-size: 90%;
+}
+
+.section-5 {
+    text-align: center;
+    margin-top: 100px;
 }
