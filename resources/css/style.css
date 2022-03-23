@@ -87,3 +87,32 @@ header {
 .section-2 {
     margin-top: 125px;
 }
+
+.section-3 {
+    margin-top: 75px;
+}
+
+.section-3 img {
+    display: inline-block;
+    float: left;
+    width: 52%;
+    overflow: hidden;
+    margin-left: -30px;
+}
+
+.section-3 ul {
+    width: 25%;
+    float: left;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.section-3 li {
+    margin-top: 50px;
+}
+
+.section-3 p {
+    font-size: 90%;
+    margin-top: -10px;
+
+}
