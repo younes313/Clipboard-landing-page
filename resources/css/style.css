@@ -120,7 +120,7 @@ header {
 .section-3 li {
     margin-top: 50px;
 }
-
+    
 .section-3 p {
     font-size: 90%;
     margin-top: -10px;
@@ -139,3 +139,74 @@ header {
     text-align: center;
     margin-top: 100px;
 }
+
+.section-6 {
+    margin-top: 100px;
+}
+
+.section-7 {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.section-7 {
+    margin-top: 100px;
+}
+
+.section-8 {
+    margin: 200px auto 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.section-9 {
+    margin: 200px 0;
+}
+
+footer {
+    background-color: rgb(241, 241, 241);
+    height: 150px;
+    padding-top: 25px;
+}
+
+footer .logo{
+    text-align: center;
+}
+
+footer .logo img {
+    height: 60px;
+}
+
+.menu {
+    text-align: left;
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:link,
+footer a:visited {
+    color: rgb(117, 117, 117);
+}
+
+footer a:active,
+footer a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.social {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.social svg {
+    margin-right: 20px;
+}
+
+svg:hover path{
+    fill: hsl(171, 66%, 44%);
+  }
