@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* width: 1440px; */
+    background-color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    color: rgb(98, 98, 98);
+}
+
+p {
+    color: rgb(146, 146, 146);
+    font-size: 110%;
+}
+
+header {
+    background-image: url("img/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: auto;
+    padding-top: 150px;
+}
+
+.center-section {
+    text-align: center;
+    width: 50%;
+    padding-left: 25%;
+}
+
+.center-section h1 {
+    font-size: 250%;
+}
+
+.center-section h2 {
+    font-size: 200%;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    width: 30%;
+    display: inline-block;
+    height: 50px;
+    border-radius: 25px;
+
+    /* vertical center */
+    margin: 33px 10px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.btn-cyan:link,
+.btn-cyan:visited {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.btn-cyan:active,
+.btn-cyan:hover {
+    background-color: hsl(171, 40%, 56%);
+}
+
+
+.btn-purple:link,
+.btn-purple:visited {
+    background-color: hsl(233, 100%, 69%)    ;
+}
+
+.btn-purple:active,
+.btn-purple:hover {
+    background-color: hsl(233, 97%, 76%)    ;
+}
+
+
+.section-2 {
+    margin-top: 125px;
+}
